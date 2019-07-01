@@ -1,0 +1,8 @@
+{
+  "domain": "onespot.ai",
+  "host": "0.0.0.0",
+  "port": 2997,
+  "mongodb": {
+    "uri": "mongodb://way2money:way2money%23%24@49.156.128.3:27017/way2finance"
+  }
+}

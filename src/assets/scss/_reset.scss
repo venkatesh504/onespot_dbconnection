@@ -1,0 +1,40 @@
+
+body{
+    font-family: 'Varela Round', sans-serif;
+    color: #344E73;
+
+}
+// p{
+//     margin:  0 !important;
+// }
+a{
+  text-decoration: none !important;
+}
+.navbar-expand-lg{
+    padding: 24px 10px;
+}
+.form-control{
+    border-radius: 0;
+  &:focus {
+
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,0) !important;
+  }
+}
+.navbar-brand{
+  padding-bottom: 15px;
+}
+.form-control.is-invalid, .was-validated .form-control:invalid{
+  border-color: #63ccc8 !important;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #d8d8d8!important;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #d8d8d8!important;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #d8d8d8 !important;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #d8d8d8 !important;
+}
